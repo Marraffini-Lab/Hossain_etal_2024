@@ -1,5 +1,5 @@
 # Hossain_etal_2024
-Custom Python scripts in Hossain et al., 2024 for analysis of next-generation sequencing (NGS) data and NCBI protein BLAST XML alignment data:
+Custom Python scripts used in Hossain et al., 2024 for analysis of next-generation sequencing (NGS) data and NCBI protein BLAST XML alignment data:
 
 NGS_phage_DNA_infected_cells.py takes as input a FASTA file with a phage reference genome sequence as well as two NGS Illumina FASTQ files with total DNA reads from bacterial cells infected with phage, under control or immune targeting conditions, to map the base pair coverage across the entire phage genome normalized to the total DNA reads for a particular sample. The output is a graph of the data as well as two CSV files for each FASTQ input. One CSV file records all the DNA reads that mapped to the phage genome with their start and end nucleotide position numbers indicated. The other CSV file records the normalized read count for each base per position within the phage genome.
 
