@@ -1,7 +1,7 @@
 # Hossain_etal_2024
 Custom Python scripts for analysis of next-generation sequencing (NGS) data in Hossain et al., 2024:
 
-Gene_Neighborhood_Analysis.py takes as input a protein BLAST or PSI-BLAST XML file and returns as output a TSV file with the 10 genes upstream and 10 genes downstream of each protein accession hit in the XML file by interfacing with the Entrez database and locating the position of each BLAST hit within its uploaded genome. The PSI-BLAST alignment XML file (NZUWTKTR016-Alignment.xml) used for Brig1 gene neighborhood analysis is also provided in this repository.
+Gene_Neighborhood_Analysis.py takes as input a protein BLAST or PSI-BLAST XML file and returns as output a TSV file with the n genes upstream and n genes downstream of each protein accession hit in the XML file by interfacing with the Entrez database and locating the position of each BLAST hit within its associated nucleotide entry. The PSI-BLAST alignment XML file (NZUWTKTR016-Alignment.xml) used for Brig1 gene neighborhood analysis is also provided in this repository.
 
 NGS_phage_DNA_infected_cells.py takes as input a FASTA file with a phage reference genome sequence as well as two FASTQ files with total DNA reads from bacterial cells infected with phage, under control or immune targeting conditions, to map the base pair coverage across the entire phage genome normalized to the total DNA reads for a particular sample. The output is a graph of the data as well as two CSV files for each FASTQ input. One CSV file records all the DNA reads that mapped to the phage genome with their start and end nucleotide position numbers indicated. The other CSV file records the normalized read count for each base per position within the phage genome.
 
