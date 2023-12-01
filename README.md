@@ -9,26 +9,19 @@ Gene_Neighborhood_Analysis.py takes as input a protein BLAST or PSI-BLAST XML fi
 
 
 HARDWARE REQUIREMENTS
-
-Both scripts require only a standard computer with enough RAM to support the in-memory operations.
+Both scripts require only a standard computer with enough RAM to support the in-memory operations. The code was written and run on a 13-inch 2019 MacBook Pro with a 2.8 GHz Quad-Core Intel Core i7 processor and 16 GB 2133 MHz LPDDR3.
 
 
 SOFTWARE REQUIREMENTS
-
 The code is supported for standard operating systems with functionality for Python. Scripts have been tested on the following systems: macOS Sonoma version 14.1.2. Scripts were written and tested using the software PyCharm CE (PyCharm 2023.2.5 Community Edition). Code was written and tested using Python 3.1 (2).
 
 
 PYTHON DEPENDENCIES
-The Python scripts in this repository mainly depend on the following:
-numpy
-biopython
-pandas
-matplotlib
+The Python scripts in this repository mainly depend on the following: numpy, biopython, pandas and matplotlib.
 
 
 RUNTIME AND REPRODUCIBILITY
-
-The runtime for the pWEBTNC_pBrig1_T4_test_client.py, which uses only forward NGS reads from a paired-end 2 x 75 bp Illumina MiSeq run, is ~2 hours using PyCharm CE (PyCharm 2023.2.5 Community Edition) on a 13-inch 2019 MacBook Pro with a 2.8 GHz Quad-Core Intel Core i7 processor and 16 GB 2133 MHz LPDDR3 running on macOS Sonoma version 14.1.2. The FASTA file for this test client is "T4_WT.fa" available in this repository. 
+The runtime for the pWEBTNC_pBrig1_T4_test_client.py, which uses only forward NGS reads from a paired-end 2 x 75 bp Illumina MiSeq run, is ~2 hours using PyCharm CE (PyCharm 2023.2.5 Community Edition) on a 13-inch 2019 MacBook Pro with a 2.8 GHz Quad-Core Intel Core i7 processor and 16 GB 2133 MHz LPDDR3 running on macOS Sonoma version 14.1.2. The FASTA file for this test client is "T4_WT.fa", available in this repository. 
 
 
 LICENSE
