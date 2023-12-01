@@ -17,11 +17,11 @@ The code is supported for standard operating systems with functionality for Pyth
 
 
 PYTHON DEPENDENCIES
-The Python scripts in this repository mainly depend on the following: numpy, biopython, pandas and matplotlib.
+The Python scripts in this repository depend on the following: numpy, biopython, pandas and matplotlib.
 
 
 RUNTIME AND REPRODUCIBILITY
-The runtime for the pWEBTNC_pBrig1_T4_test_client.py, which uses only forward NGS reads from a paired-end 2 x 75 bp Illumina MiSeq run, is ~2 hours using PyCharm CE (PyCharm 2023.2.5 Community Edition) on a 13-inch 2019 MacBook Pro with a 2.8 GHz Quad-Core Intel Core i7 processor and 16 GB 2133 MHz LPDDR3 running on macOS Sonoma version 14.1.2. The FASTA file for this test client is "T4_WT.fa", available in this repository. 
+The runtime for the pWEBTNC_pBrig1_T4_test_client.py, which uses only forward NGS reads from a paired-end 2 x 75 bp Illumina MiSeq run, is ~2 hours using PyCharm CE (PyCharm 2023.2.5 Community Edition) on a 13-inch 2019 MacBook Pro with a 2.8 GHz Quad-Core Intel Core i7 processor and 16 GB 2133 MHz LPDDR3 running on macOS Sonoma version 14.1.2. The FASTA file for this test client is "T4_WT.fa", available in this repository. The FASTQ files are "S1_pWEBTNC_T4_L001_R1_001.fastq" and "S2_pBrig1_T4_L001_R1_001.fastq". The FASTQ files for this project can be found at the NCBI Sequence Read Archive (SRA) under BioProject PRJNA1045662. The test client as written reproduces the data used to generate Fig. 1e in Hossain et al., 2024. The "_read_counts.csv" files were further analyzed using MS Excel and GraphPad Prism to produce the graph in Fig. 1e. To reproduce the data in Fig. 2b, the FASTA file is "T4_escaper1.fa", available in this repository, and the FASTQ files are "S3_pWEBTNC_T4esc1_L001_R1_001.fastq" and "S4_pBrig1_T4esc1_L001_R1_001.fastq", available at the NCBI Sequence Read Archive (SRA) under BioProject PRJNA1045662. 
 
 
 LICENSE
