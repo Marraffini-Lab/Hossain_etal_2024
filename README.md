@@ -17,7 +17,7 @@ The code is supported for standard operating systems with functionality for Pyth
 
 
 PYTHON DEPENDENCIES
-The Python scripts in this repository depend on the following: numpy, biopython, pandas and matplotlib.
+The Python scripts in this repository depend on the following: numpy, biopython, pandas, matplotlib and re.
 
 
 RUNTIME AND REPRODUCIBILITY
