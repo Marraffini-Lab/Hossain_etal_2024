@@ -9,7 +9,7 @@ Gene_Neighborhood_Analysis.py takes as input a protein BLAST or PSI-BLAST XML fi
 
 
 HARDWARE REQUIREMENTS
-Both scripts require only a standard computer with enough RAM to support the in-memory operations. The code was written and run on a 13-inch 2019 MacBook Pro with a 2.8 GHz Quad-Core Intel Core i7 processor and 16 GB 2133 MHz LPDDR3.
+All scripts require only a standard computer with enough RAM to support the in-memory operations. The code was written and run on a 13-inch 2019 MacBook Pro with a 2.8 GHz Quad-Core Intel Core i7 processor and 16 GB 2133 MHz LPDDR3.
 
 
 SOFTWARE REQUIREMENTS
